@@ -1,15 +1,11 @@
+
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sakil Ahmed — Research Portfolio</title>
-<meta name="description" content="Academic portfolio, publications, projects, and CV of Sakil Ahmed.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Publications — Sakil Ahmed</title>
 <link rel="stylesheet" href="assets/css/style.css">
-<meta property="og:title" content="Sakil Ahmed — Research Portfolio">
-<meta property="og:description" content="Academic portfolio for PhD applications.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="assets/images/profile.jpg">
 </head>
 <body>
 <div class="container">
@@ -21,27 +17,39 @@
       <a href="publications.html">Publications</a>
       <a href="projects.html">Projects</a>
       <a href="cv.html">CV</a>
+      <a href="certifications.html">Certifications</a>
       <a href="contact.html">Contact</a>
     </div>
   </nav>
 
-<section>
-  <h1>Publications</h1>
-  <p class="kicker">Total: <span id="pub-count">0</span></p>
-  <div class="grid2">
-    <input id="pub-search" type="search" placeholder="Search by title, author, tag...">
-    <select id="pub-year"><option value="">All years</option></select>
-  </div>
-  <script id="pub-data" type="application/json">[{"title": "Advanced Machine Learning Techniques for Predictive Modeling", "authors": ["Sakil Ahmed"], "venue": "Mathematical Problems in Engineering", "year": 2021, "doi": "10.1155/2021/9929274", "url": "https://doi.org/10.1155/2021/9929274", "tags": ["Machine Learning", "Predictive Modeling"], "bibtex": "@article{Ahmed2021Predictive,\n  author = {Ahmed, Sakil},\n  title = {Advanced Machine Learning Techniques for Predictive Modeling},\n  journal = {Mathematical Problems in Engineering},\n  year = {2021},\n  doi = {10.1155/2021/9929274}\n}"}, {"title": "Deep Learning Algorithms in Healthcare Applications", "authors": ["Sakil Ahmed"], "venue": "Journal of Healthcare Engineering", "year": 2021, "doi": "10.1155/2021/1002799", "url": "https://doi.org/10.1155/2021/1002799", "tags": ["Deep Learning", "Healthcare"], "bibtex": "@article{Ahmed2021Healthcare,\n  author = {Ahmed, Sakil},\n  title = {Deep Learning Algorithms in Healthcare Applications},\n  journal = {Journal of Healthcare Engineering},\n  year = {2021},\n  doi = {10.1155/2021/1002799}\n}"}]</script>
-  <ul class="list" id="pub-list" style="margin-top:12px"></ul>
-  <p class="meta">Click DOI or PDF to view. Use “Copy BibTeX” for citations.</p>
-</section>
+  <section>
+    <h1>Publications</h1>
+    <p class="kicker">Total: 2</p>
+    <ul class="list">
+      <li>
+        <strong>Advanced Machine Learning Techniques for Predictive Modeling</strong>
+        <div class="kicker">Sakil Ahmed — <span>Mathematical Problems in Engineering</span> <span class="meta">(2021)</span></div>
+        <div class="meta">Machine Learning • Predictive Modeling</div>
+        <div style="margin-top:6px">
+          <a href="https://doi.org/10.1155/2021/9929274" target="_blank" rel="noopener">DOI</a> •
+          <a href="https://doi.org/10.1155/2021/9929274" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </li>
 
-  <footer>
-    © <span id="y"></span> Sakil Ahmed · Sydney, Australia
-  </footer>
+      <li>
+        <strong>Deep Learning Algorithms in Healthcare Applications</strong>
+        <div class="kicker">Sakil Ahmed — <span>Journal of Healthcare Engineering</span> <span class="meta">(2021)</span></div>
+        <div class="meta">Deep Learning • Healthcare</div>
+        <div style="margin-top:6px">
+          <a href="https://doi.org/10.1155/2021/1002799" target="_blank" rel="noopener">DOI</a> •
+          <a href="https://doi.org/10.1155/2021/1002799" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <footer>© <span id="y"></span> Sakil Ahmed · Sydney, Australia</footer>
 </div>
 <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
-<script src="assets/js/main.js"></script>
 </body>
 </html>
